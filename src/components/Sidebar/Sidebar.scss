@@ -1,0 +1,22 @@
+aside {
+  min-width: 16.5rem;
+  border: 1px solid #CFCFE4;
+  border-radius: 18px;
+  padding: 0.75rem;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      margin: 0;
+      padding: 0.75rem;
+      border-radius: 12px;
+      transition: .1s ease-in-out;
+      &:hover {
+        cursor: pointer;
+        background-color: #5FBF77;
+        color: #fff;
+      }
+    }
+  }
+}

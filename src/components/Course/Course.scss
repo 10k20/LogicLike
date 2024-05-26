@@ -1,0 +1,31 @@
+.course-item {
+  flex: 0 0 30%;
+  // height: 13.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  border-radius: 18px;
+  box-shadow: 0px 10px 13px -4px #23235F30;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .1s ease-in-out;
+  &:hover {
+    box-shadow: 0px 0px 0px 0px #23235F30;
+  }
+  img {
+    width: 9rem;
+    height: 9rem;
+    align-self: center
+  }
+  h3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 0.75rem 1.125rem 1.125rem 1.125rem;
+    color: #39414B;
+    font-size: 1.125rem;
+    flex: 1;
+  }
+}
